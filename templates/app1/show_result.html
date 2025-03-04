@@ -1,0 +1,43 @@
+{%extends 'app1/index.html'%}
+{%block content%}
+<style>
+    table{
+      background-color: rgb(200, 184, 230);
+      
+    }
+  </style>
+<table border="1" width="100%" >
+        <tr>
+         <td>Roll no</td>
+         <td>{{stud.rollno}}</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>{{stud.name}}</td>
+           </tr>
+           <tr>
+            <td>Subject1</td>
+            <td>{{stud.sub1}}</td>
+           </tr>
+           <tr>
+            <td>Subject2</td>
+            <td>{{stud.sub2}}</td>
+           </tr>
+           <tr>
+            <td>Result</td>
+            <td>{{result}}</td>
+           </tr>
+
+</table>
+</form>
+
+
+{%endblock%}
+
+
+
+
+
+
+
+

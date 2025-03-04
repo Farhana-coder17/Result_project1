@@ -1,0 +1,43 @@
+{%extends 'app1/index.html'%}
+{%block content%}
+<style>
+    form{
+      background-color: rgb(228, 186, 196);
+      
+    }
+  </style>
+<form action="/add">
+    <table border="2" width="100%" >
+        <tr>
+         <td>Roll no</td>
+         <td><input type=text name="rno"></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type=text name="name"></td>
+           </tr>
+           <tr>
+            <td>Subject1</td>
+            <td><input type=text name="sub1"></td>
+           </tr>
+           <tr>
+            <td>Subject2</td>
+            <td><input type=text name="sub2"></td>
+           </tr>
+           <tr>
+            <td><input type=submit  value="Add"></td>
+           </tr>
+
+</table>
+</form>
+
+{{msg}}
+{%endblock%}
+
+
+
+
+
+
+
+

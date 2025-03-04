@@ -1,0 +1,31 @@
+{%extends 'app1/index.html'%}
+{%block content%}
+<style>
+    form{
+      background-color: rgb(207, 226, 243);
+      
+    }
+  </style>
+<form action="/delete">
+    <table border="1" width="100%" >
+        <tr>
+         <td>Roll no</td>
+         <td><input type=text name="rno"></td>
+        </tr>
+       
+            <td><input type=submit  value="Delete"></td>
+           </tr>
+
+</table>
+</form>
+
+{{msg}}
+{%endblock%}
+
+
+
+
+
+
+
+

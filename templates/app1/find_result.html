@@ -1,0 +1,27 @@
+{%extends 'app1/index.html'%}
+{%block content%}
+<style>
+    form{
+      background-color: rgb(185, 205, 235);
+      
+    }
+  </style>
+<form action="/find">
+    <table border="1" width="100%" >
+        <tr>
+         <td>Roll no</td>
+         <td><input type=text name="rno"></td>
+        </tr>
+       
+            <td><input type=submit  value="Find"></td>
+           </tr>
+
+</table>
+</form>
+
+{{msg}}
+{%endblock%}
+
+
+
+
