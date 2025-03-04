@@ -13,7 +13,7 @@ Introduction
  Tech Stack  
  **Backend:** Django, Python  
  **Database:** MySQL  
- **Frontend:** HTML, CSS (if used)  
+ **Frontend:** HTML, CSS   
  **Version Control:** Git & GitHub  
 
  Installation Guide  
